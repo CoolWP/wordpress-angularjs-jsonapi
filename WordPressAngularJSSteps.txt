@@ -1,0 +1,11 @@
+Run clean copy of WordPress
+Copy clean copy of WordPress, demo update-urls.php
+Run the copied clean copy of WordPress
+Copy theme
+Reload WordPress Home Page
+Copy functions.php, styles, scripts and fonts.
+Reload the WordPress Home Page
+Setup ng-app and ng-view
+Add code for displaying the blog posts to footer.php
+Add the JSON API plugin, turn on permalinks
+Add code for displaying the blog post to footer.php

@@ -1,0 +1,22 @@
+{
+  "name": "wordpress-angularjs",
+  "version": "0.0.0",
+  "authors": [
+    "Eric W. Greene <eric@ericwgreene.com>"
+  ],
+  "license": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.2.0",
+    "angular": "~1.2.21",
+    "angular-route": "~1.2.21",
+    "angular-sanitize": "~1.2.21",
+    "moment": "~2.8.1"
+  }
+}
