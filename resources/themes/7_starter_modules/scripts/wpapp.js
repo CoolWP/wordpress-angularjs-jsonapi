@@ -1,0 +1,1 @@
+angular.module('wpApp', ['wpApp.Config','wpApp.Controllers']);

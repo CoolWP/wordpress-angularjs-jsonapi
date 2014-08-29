@@ -6,11 +6,9 @@ require_once("../../../../wp-blog-header.php");
 <div id="home_partial_view" class="row">
 
 	<div class="col-sm-8 col-md-9">
-
 		<section id="posts">
 
 			<article ng-repeat="post in posts" class="row">
-
 				<section class="col-md-12">
 
 					<header>
@@ -21,18 +19,13 @@ require_once("../../../../wp-blog-header.php");
 					<p ng-bind-html="post.content"></p>
 
 				</section>
-
 			</article>
 
-
 		</section>
-
 	</div>
 
 	<div class="col-sm-4 col-md-3">
-
 		<?php get_sidebar(); ?>
-
 	</div>
 
 </div>
