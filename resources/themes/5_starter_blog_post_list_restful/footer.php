@@ -9,10 +9,8 @@
 
 		var wpApp = angular.module('wpApp', ['ngSanitize','ngRoute']);
 
-		wpApp.config(['$routeProvider','$locationProvider', function($routeProvider, $locationProvider) {
-
-				$locationProvider.html5Mode(true);
-
+		wpApp.config(['$routeProvider',
+			function($routeProvider) {
 				$routeProvider.
 					when('/', {
 						templateUrl: '<?php echo get_template_directory_uri(); ?>/partials/home.php',
@@ -37,7 +35,7 @@
 
 						var content = value.content;
 						if (content.length > 150) {
-							content = content.substr(0, 142) + "... <a href='post/" + value.slug + "'>more</a>"
+							content = content.substr(0, 142) + "... <a href='#/post/" + value.slug + "'>more</a>"
 						}
 
 						$scope.posts.push({

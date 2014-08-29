@@ -2,7 +2,7 @@
 
 	<div class="col-xs-12">
 
-		<br><a href="/">Home</a>
+		<br><a href="#/">Home</a>
 
 		<header>
 			<h3 ng-bind-html="post.title"></h3>

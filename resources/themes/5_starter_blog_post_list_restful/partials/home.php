@@ -14,7 +14,7 @@ require_once("../../../../wp-blog-header.php");
 				<section class="col-md-12">
 
 					<header>
-						<a href="post/{{post.slug}}"><h3 ng-bind-html="post.title"></h3></a>
+						<a href="#/post/{{post.slug}}"><h3 ng-bind-html="post.title"></h3></a>
 						<small>Published: {{post.published_date}} | Comments: {{post.comment_count}}</small>
 					</header>
 
