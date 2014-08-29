@@ -15,4 +15,8 @@ Developers can build great single page WordPress sites using AngularJS and the R
 
 *completed* folder - this is the completed demo
 
-*resources* - these are the various assets that were use as well as versions of the theme at the various steps of the demo
+*resources* - these are the various assets that were used as well as versions of the theme at the various steps of the demo
+
+#### For Additional Information
+
+[Visit My Website](http://www.ericwgreene.com)
